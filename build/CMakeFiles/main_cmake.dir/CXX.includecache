@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/songwq/Documents/workspace/FSPSA/main.cpp
+iostream
+-
+algorithm
+-
+ctime
+-
+cmath
+-
+cstring
+-
+unistd.h
+-
+vector
+-
+
