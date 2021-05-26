@@ -71,7 +71,7 @@ int MakeSpan()
 
         for (int i = 0; i < m; i++)
         {
-            if (i > 0)
+            if (j == 0)
             {
                 sTime[j][i] = max(cTime[j][i - 1], cTime[j - 1][i]);
             }
